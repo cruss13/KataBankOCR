@@ -1,0 +1,22 @@
+{
+  "name": "katabankocr",
+  "version": "1.0.0",
+  "description": "Solution to KataBankOCR",
+  "main": "index.js",
+  "scripts": {
+    "test": "export NODE_ENV=test && jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cruss13/KataBankOCR.git"
+  },
+  "keywords": [
+    "kata"
+  ],
+  "author": "CRuss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cruss13/KataBankOCR/issues"
+  },
+  "homepage": "https://github.com/cruss13/KataBankOCR#readme"
+}
