@@ -2,9 +2,9 @@
   "name": "katabankocr",
   "version": "1.0.0",
   "description": "Solution to KataBankOCR",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "export NODE_ENV=test && jasmine"
+    "test": "chai"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/cruss13/KataBankOCR/issues"
   },
-  "homepage": "https://github.com/cruss13/KataBankOCR#readme"
+  "homepage": "https://github.com/cruss13/KataBankOCR#readme",
+  "devDependencies": {
+    "jasmine": "^3.0.0",
+    "request": "^2.83.0"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.2"
+  }
 }
